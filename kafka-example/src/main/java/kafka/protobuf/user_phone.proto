@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package kafka.protobuf;
+//option java_outer_classname = "UserPhone";
+message UserPhone {
+  string phone = 1;
+  string user_id = 2;
+  int64 lat = 3;
+  int64 lon = 4;
+  int64 timestamp = 5;
+}
